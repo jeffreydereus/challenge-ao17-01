@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chavez Contact</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+            integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/global.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+<body>
+<header>
+    <nav>
+        <img src="../logo.jpg" alt="logo" id="logo">
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs|pills" id="navId">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="jobs.html" class="nav-link">Jobs</a>
+            </li>
+            <li class="nav-item">
+                <a href="Over%20Chavez.html" class="nav-link">Over Chavez</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane fade in active" id="tab1Id" role="tabpanel"></div>
+            <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
+            <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
+            <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
+            <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
+        </div>
+
+        <script>
+            $('#navId a').click(e = > {
+                e.preventDefault();
+            $(this).tab('show');
+            })
+            ;
+        </script>
+    </nav>
+    <div id="bannerc">
+        <img class="banneroverlay" src="../over/life-is-like-a-sandwhich-overlay.png">
+    </div>
+</header>
+<main>
+    <section class="container col-md-5 sec">
+        <h2>CONTACT</h2>
+        <div class="outline div">
+            <p>Grote Markt 24</p>
+            <p>4201 EB Gorinchem</p>
+            <p>T. 0183 821 473</p>
+            <p>info@espressobar-chavez.nl</p>
+        </div>
+
+        <img src="../contact/contact-googlemaps-kaartje.png" alt="google" id="google">
+
+        <div id="divp">
+            <h3>Openingstijden</h3>
+
+            <p class="p">Maandag 09.00 – 17.00</p>
+            <p class="p">dinsdag 09.00 – 17.00</p>
+            <p class="p">Woensdag 09.00 – 17.00</p><br>
+            <p class="p">Donderdag 09.00 – 22.00</p>
+            <p class="p">Vrijdag 09.00 – 17.00</p>
+            <p class="p">Zaterdag 10.00 – 18.00</p><br>
+            <p class="p pp">Zondag 10.00 – 18.00</p>
+        </div>
+    </section>
+</main>
+</body>
+</html>
