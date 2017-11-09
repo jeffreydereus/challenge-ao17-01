@@ -136,3 +136,9 @@ html body main section h3 {
 .sec {
     margin-bottom: 15px;
 }
+
+footer {
+    width: 100;
+    position: fixed;
+    bottom: 0;
+}
