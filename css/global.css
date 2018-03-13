@@ -16,6 +16,10 @@
     left: 40%;
 }
 
+.HELP {
+    display: flex;
+}
+
 header {
     width: 100%
 }
